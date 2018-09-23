@@ -15,8 +15,10 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-core": "^6.26.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
@@ -32,6 +34,7 @@
     "jest": "^23.5.0",
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.3",
+    "regenerator-runtime": "^0.12.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.2",
@@ -43,9 +46,5 @@
     "axios": "^0.18.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
-  },
-  "jest": {
-    "setupTestFrameworkScriptFile": "./__tests__/setup/setupEnzyme.js",
-    "testPathIgnorePatterns": ["./__tests__/setup/"]
   }
 }
